@@ -2,7 +2,9 @@ import axios from "axios";
 
 import { API_NOTIFICATION_MSGS, API_SERVICE_URLS } from "../constants/config";
 import { getType } from "../utils/common-utils";
-const API_URL = "http://localhost:8000";
+
+//const API_URL = "http://localhost:8000";
+const API_URL = "https://mern-event.adaptable.app/";
 
 const axiosInstance = axios.create({
   baseURL: API_URL,
